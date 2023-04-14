@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 08c7bf51d010ab04688cdef1ab91341e
+guid: f17fa162143e6fb4c9c5021ac7fd1804
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Farmer walk_run sprite_0
+      name: Corners-P.H._0
       rect:
         serializedVersion: 2
         x: 0
-        y: 224
-        width: 224
-        height: 224
+        y: 105
+        width: 105
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fd03de869fa17f45a64a308c9015fc8
-      internalID: -1554686508
+      spriteID: e0134477f90df07459e401f526877597
+      internalID: 2037486434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer walk_run sprite_1
+      name: Corners-P.H._1
       rect:
         serializedVersion: 2
-        x: 224
-        y: 224
-        width: 224
-        height: 224
+        x: 105
+        y: 105
+        width: 105
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54bd3e9cf86e37b448379d5feb82625e
-      internalID: 1548446644
+      spriteID: 9c8139237f63f0f4ab8c7ed84cdcf544
+      internalID: -1666519132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer walk_run sprite_2
+      name: Corners-P.H._2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 224
-        height: 224
+        width: 105
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97f859b4a16c96e489a6231128f7774d
-      internalID: -1429826387
+      spriteID: ac650a12fe3d41345a6c661fe80ce4de
+      internalID: 1578711922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer walk_run sprite_3
+      name: Corners-P.H._3
       rect:
         serializedVersion: 2
-        x: 224
+        x: 105
         y: 0
-        width: 224
-        height: 224
+        width: 105
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f40a7e71e8c1b04ca957b24931b7778
-      internalID: 70349685
+      spriteID: 0e9e48520d1a02f42a8ffc3e60ac1109
+      internalID: 873224748
       vertices: []
       indices: 
       edges: []
@@ -222,10 +222,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Farmer walk_run sprite_3: 70349685
-      Farmer walk_run sprite_2: -1429826387
-      Farmer walk_run sprite_1: 1548446644
-      Farmer walk_run sprite_0: -1554686508
+      Corners-P.H._2: 1578711922
+      Corners-P.H._0: 2037486434
+      Corners-P.H._3: 873224748
+      Corners-P.H._1: -1666519132
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

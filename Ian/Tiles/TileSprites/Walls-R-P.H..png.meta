@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0f27715b95a78b34ea29296061ed9c40
+guid: cfe024f0a02c8054fa14ccbdc29e77c5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: finished farmer sprite_0
+      name: Walls-R-P.H._0
       rect:
         serializedVersion: 2
         x: 0
-        y: 224
-        width: 224
-        height: 224
+        y: 105
+        width: 105
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b1d427acff59b8489bb277f9505eb7a
-      internalID: 513677778
+      spriteID: d8ec39c4a001e6c4d91496375e5a3371
+      internalID: 1475461495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: finished farmer sprite_1
+      name: Walls-R-P.H._1
       rect:
         serializedVersion: 2
-        x: 224
-        y: 224
-        width: 224
-        height: 224
+        x: 105
+        y: 105
+        width: 105
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daca6ff69c96a2143899aae5fe3c50d8
-      internalID: -1017371320
+      spriteID: 9e7593025f82b504dba78d6163356178
+      internalID: -674608561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: finished farmer sprite_2
+      name: Walls-R-P.H._2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 224
-        height: 224
+        width: 105
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76bff7577e6545f4b9111084eda44811
-      internalID: -1227728235
+      spriteID: 280b2afee74eae147b6c668ee10433e4
+      internalID: 1597350489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: finished farmer sprite_3
+      name: Walls-R-P.H._3
       rect:
         serializedVersion: 2
-        x: 224
+        x: 105
         y: 0
-        width: 224
-        height: 224
+        width: 105
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff4ca4368c85cd9488670aa1d899b088
-      internalID: -236977402
+      spriteID: c06f4cc095307434ba512f3de0fce42d
+      internalID: 1354044716
       vertices: []
       indices: 
       edges: []
@@ -222,10 +222,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      finished farmer sprite_0: 513677778
-      finished farmer sprite_2: -1227728235
-      finished farmer sprite_3: -236977402
-      finished farmer sprite_1: -1017371320
+      Walls-R-P.H._1: -674608561
+      Walls-R-P.H._0: 1475461495
+      Walls-R-P.H._2: 1597350489
+      Walls-R-P.H._3: 1354044716
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

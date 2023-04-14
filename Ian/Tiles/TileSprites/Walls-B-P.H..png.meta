@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f9906f649a9304743b8e377791fb4148
+guid: 1652cc8077761f04884504b09500588f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Angry Farmer Sprite_0
+      name: Walls-B-P.H._0
       rect:
         serializedVersion: 2
         x: 0
-        y: 224
-        width: 224
-        height: 224
+        y: 105
+        width: 105
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc430485ad35b6c4e9981e9a37c1e60a
-      internalID: 795214691
+      spriteID: 23ae4fd9540776941b0fcf38d5664931
+      internalID: -949465513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Angry Farmer Sprite_1
+      name: Walls-B-P.H._1
       rect:
         serializedVersion: 2
-        x: 224
-        y: 224
-        width: 224
-        height: 224
+        x: 105
+        y: 105
+        width: 105
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fb0f0d7239424045a0befc9197791df
-      internalID: -426809519
+      spriteID: 716461759bd70fe4ea352ff58ef07ced
+      internalID: 2061709980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Angry Farmer Sprite_2
+      name: Walls-B-P.H._2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 224
-        height: 224
+        width: 105
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +184,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78cc1ea4af8adf94ab103205a9bbcb5d
-      internalID: -1415833295
+      spriteID: 002063d859ce7b54c97357ebe5864ba9
+      internalID: -809407241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walls-B-P.H._3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78b1379042b8ec46a22f4c6c48e0fe9
+      internalID: -708350389
       vertices: []
       indices: 
       edges: []
@@ -201,9 +222,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Angry Farmer Sprite_1: -426809519
-      Angry Farmer Sprite_0: 795214691
-      Angry Farmer Sprite_2: -1415833295
+      Walls-B-P.H._3: -708350389
+      Walls-B-P.H._1: 2061709980
+      Walls-B-P.H._0: -949465513
+      Walls-B-P.H._2: -809407241
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
