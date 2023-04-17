@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b77fdd10322def448d708027116e43c
+guid: 94cd2f02f6ee01f49874821e609520b3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,7 +128,175 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stage-P.H._0
+      name: L&RWallsTileSet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91db719a4beeb74da8be939aacf9ce3
+      internalID: -35642664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L&RWallsTileSet_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db31bb978b9eb0542944f95d58b3bb95
+      internalID: 271420470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L&RWallsTileSet_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004ebb4daae661740b52d9fa0764c396
+      internalID: -717667942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L&RWallsTileSet_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 315
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acd25c9422d4c148877bfec3c724bc3
+      internalID: -1773287758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L&RWallsTileSet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0332ff25158b2e41a0d56f6ebea1456
+      internalID: -736916631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L&RWallsTileSet_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4922b210218e8b34e826857056a797df
+      internalID: -406188107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L&RWallsTileSet_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c454e340e40ee2e4895f385f083e12ce
+      internalID: -2123887670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L&RWallsTileSet_7
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 210
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d252715664e4eb4492772854a158004
+      internalID: 1261204984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L&RWallsTileSet_8
       rect:
         serializedVersion: 2
         x: 0
@@ -142,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4177f2a08a1d354aaa9ad179d584aa7
-      internalID: -1237684788
+      spriteID: 38c9ddcab7e80e842a801d8e53997dc6
+      internalID: 458542467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stage-P.H._1
+      name: L&RWallsTileSet_9
       rect:
         serializedVersion: 2
         x: 105
@@ -163,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65c789e0aed885e4b866e8adf92bb7ce
-      internalID: -1294580996
+      spriteID: 557605e18ed173e488e38ed1745f0409
+      internalID: 1021372878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stage-P.H._2
+      name: L&RWallsTileSet_10
       rect:
         serializedVersion: 2
         x: 210
@@ -184,14 +352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc33a3a2d37fa74f9691c22f5d4edeb
-      internalID: 475256429
+      spriteID: 0d9c83a899432534a831faa843c334aa
+      internalID: 22561735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stage-P.H._3
+      name: L&RWallsTileSet_11
       rect:
         serializedVersion: 2
         x: 315
@@ -205,14 +373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed2058699b919d34bba2463677193e11
-      internalID: -1402218657
+      spriteID: 5518bb99a43f32b4ea4fabaf452168bd
+      internalID: 567709417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stage-P.H._4
+      name: L&RWallsTileSet_12
       rect:
         serializedVersion: 2
         x: 0
@@ -226,14 +394,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6635482eeb917494dbfd78f33b134794
-      internalID: -465325510
+      spriteID: ff7660674402d2e419f8b1f99483065b
+      internalID: 1207621211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stage-P.H._5
+      name: L&RWallsTileSet_13
       rect:
         serializedVersion: 2
         x: 105
@@ -247,14 +415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48ae0437cfd18af41b1217b5d436c86d
-      internalID: 269795976
+      spriteID: c3061e7597b9b6a46a59b7e61a5f210b
+      internalID: -1757053238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stage-P.H._6
+      name: L&RWallsTileSet_14
       rect:
         serializedVersion: 2
         x: 210
@@ -268,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e30cbc6225bf73b4e88282e3cea70702
-      internalID: -1287148402
+      spriteID: d06df809a681168498d3cdc1df00dcde
+      internalID: -1911320981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stage-P.H._7
+      name: L&RWallsTileSet_15
       rect:
         serializedVersion: 2
         x: 315
@@ -289,8 +457,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ffc9b258be5abe4a994031c36d48a08
-      internalID: 1641573777
+      spriteID: 27b5ecc57735c814c98e3ad2ad30726b
+      internalID: 305459355
       vertices: []
       indices: 
       edges: []
@@ -306,14 +474,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Stage-P.H._2: 475256429
-      Stage-P.H._7: 1641573777
-      Stage-P.H._6: -1287148402
-      Stage-P.H._5: 269795976
-      Stage-P.H._4: -465325510
-      Stage-P.H._1: -1294580996
-      Stage-P.H._0: -1237684788
-      Stage-P.H._3: -1402218657
+      L&RWallsTileSet_13: -1757053238
+      L&RWallsTileSet_3: -1773287758
+      L&RWallsTileSet_4: -736916631
+      L&RWallsTileSet_6: -2123887670
+      L&RWallsTileSet_12: 1207621211
+      L&RWallsTileSet_7: 1261204984
+      L&RWallsTileSet_0: -35642664
+      L&RWallsTileSet_9: 1021372878
+      L&RWallsTileSet_2: -717667942
+      L&RWallsTileSet_10: 22561735
+      L&RWallsTileSet_5: -406188107
+      L&RWallsTileSet_14: -1911320981
+      L&RWallsTileSet_11: 567709417
+      L&RWallsTileSet_15: 305459355
+      L&RWallsTileSet_1: 271420470
+      L&RWallsTileSet_8: 458542467
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
