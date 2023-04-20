@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : character
+public class Player : Character
 {
     [SerializeField] private Animator animator;
 

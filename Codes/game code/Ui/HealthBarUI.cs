@@ -6,7 +6,7 @@ using TMPro;
 
 public class HealthBarUI : MonoBehaviour
 {
-    [SerializeField] private character character;
+    [SerializeField] private Character character;
     [SerializeField] private TextMeshProUGUI nameText;
     [SerializeField] private Image healthBarFill;
 

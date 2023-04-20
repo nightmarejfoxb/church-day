@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-//using UnityEngine.InputSystem;
+using UnityEngine.InputSystem;
 
 public class EquipController : MonoBehaviour
 {
@@ -13,13 +13,13 @@ public class EquipController : MonoBehaviour
 
     [Header("Components")]
     [SerializeField] private Transform equipObjectOrigin;
-    //[SerializeField] private MouseUtilities mouseUtilities;
+    [SerializeField] private MouseUtilities mouseUtilities;
 
     void Update ()
     {
-        //Vector2 mouseDir = mouseUtilities.GetMouseDirection(transform.position);
+        Vector2 mouseDir = mouseUtilities.GetMouseDirection(transform.position);
 
-        //transform.up = mouseDir;
+        transform.up = mouseDir;
 
         if(HasItemEquipped())
         {
@@ -54,11 +54,11 @@ public class EquipController : MonoBehaviour
 
 
     //Lesson 22 3:47
-   /* public void OnUseInput (InputAction.CallBackContext context)
+    public void OnUseInput (InputAction.CallbackContext context)
     {
         if(context.phase == InputActionPhase.Performed)
             useInput = true;
         if (context.phase == InputActionPhase.Canceled)
             useInput = false;
-    }*/
+    }
 }
