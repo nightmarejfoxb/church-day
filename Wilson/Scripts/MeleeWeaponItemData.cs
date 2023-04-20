@@ -7,6 +7,6 @@ public class MeleeWeaponItemData : ItemData
 {
     [Header("Melee weapon Item Data")]
     public int Damage;
-    public int Range;
-    public int AttackRate;
+    public float Range;
+    public float AttackRate;
 }
