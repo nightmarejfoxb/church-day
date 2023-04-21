@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:2D art/Pepole NPC/man.png.meta
 guid: d6006ca6f2c60dd47818ec6191c4b3ca
+========
+guid: b79c55f07d801dd48b535b4cc0872810
+>>>>>>>> JacobBranch:2D art/MapLayout/Garden's doorway.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
