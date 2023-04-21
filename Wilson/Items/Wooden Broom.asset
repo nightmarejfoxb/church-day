@@ -16,7 +16,7 @@ MonoBehaviour:
   Description: A cleaning tool
   Icon: {fileID: 21300000, guid: 0c5050604ae811846a48ba5fcc4d1c1d, type: 3}
   MaxStackSize: 1
-  EquipPrefab: {fileID: 0}
+  EquipPrefab: {fileID: 1203081749812180189, guid: 84ac1d4d0501e1d4885ba6021508f4bd, type: 3}
   Damage: 1
   Range: 1.2
   AttackRate: 0.4
