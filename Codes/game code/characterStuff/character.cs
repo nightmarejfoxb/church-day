@@ -1,9 +1,11 @@
-using System.Collections;
+/*Interfering with another script.  Us Character instead.
+ * 
+ * using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public abstract class character : MonoBehaviour, IDamagable
+public abstract class Character : MonoBehaviour, IDamagable
 {
     public enum Team
     {
@@ -58,3 +60,4 @@ public abstract class character : MonoBehaviour, IDamagable
         onHeal?.Invoke();
     }
 }
+*/

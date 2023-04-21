@@ -1,4 +1,7 @@
-using System.Collections;
+/*
+ * Interfering.  Use the other player script
+ * 
+ * using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,4 +17,4 @@ public class Player : Character
         else
             Instance = this;
     }
-}
+}*/

@@ -1,4 +1,8 @@
-using System.Collections;
+/*
+ * This Script conflicts with Wilson's script.
+ * 
+ * 
+ * using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -51,3 +55,4 @@ public class EquipController : MonoBehaviour
             useInput = false;
     }
 }
+*/
