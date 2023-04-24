@@ -6,10 +6,10 @@ using UnityEngine.InputSystem;
 
 public class EquipController : MonoBehaviour
 {
-    private EquipItem curEquipItem;
-    private GameObject curEquipObject;
+    [SerializeField] private EquipItem curEquipItem;
+    [SerializeField] private GameObject curEquipObject;
 
-    private bool useInput;
+    [SerializeField] private bool useInput;
 
     [SerializeField] private ItemData testEquipItem;
 
@@ -65,6 +65,7 @@ public class EquipController : MonoBehaviour
     {
         if(context.phase == InputActionPhase.Performed)
             useInput = true;
+        Debug.Log("Item Used");
         if (context.phase == InputActionPhase.Canceled)
             useInput = false;
     }
