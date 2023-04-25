@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class MouseUtilities : MonoBehaviour
 {
-    private Camera cam;
+    [SerializeField]private Camera cam;
 
     void Awake ()
     {

@@ -24,6 +24,8 @@ public class EquipController : MonoBehaviour
 
     void Update ()
     {
+        Debug.Log(mouseUtilities.name);
+
         Vector2 mouseDir = mouseUtilities.GetMouseDirection(transform.position);
 
         transform.up = mouseDir;
