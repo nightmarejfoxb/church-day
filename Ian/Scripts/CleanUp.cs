@@ -8,7 +8,7 @@ public class CleanUp : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Roomba"))
+        if (collision.gameObject.CompareTag("Broom"))
         {
             Destroy(Mess);
         }
