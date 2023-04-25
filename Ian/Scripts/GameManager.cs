@@ -6,8 +6,10 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public Image failure;
+    public Image fRestart;
 
     public Image victory;
+    public Image vRestart;
 
     public int messPiles;
 
@@ -17,6 +19,8 @@ public class GameManager : MonoBehaviour
     {
         victory.enabled = false;
         failure.enabled = false;
+        vRestart.enabled = false;
+        fRestart.enabled = false;
     }
 
     // Update is called once per frame
@@ -27,6 +31,15 @@ public class GameManager : MonoBehaviour
         if(messPiles == 0)
         {
             victory.enabled = true;
+            vRestart.enabled = true;
+        }
+
+        if(victory.enabled == true || failure.enabled == true)
+        {
+            if(Input.GetKeyDown(KeyCode.X))
+            {
+
+            }
         }
     }
 }
