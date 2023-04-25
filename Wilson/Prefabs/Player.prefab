@@ -231,6 +231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1929497005651474522}
   - component: {fileID: 2366655262649059861}
+  - component: {fileID: 9183228166976242947}
   - component: {fileID: 2927200656977968934}
   - component: {fileID: 8191460618980333322}
   m_Layer: 0
@@ -268,6 +269,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d05e2e4adf76ae4089a371909016ff9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  rig: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  mouseUtilities: {fileID: 9183228166976242947}
+--- !u!114 &9183228166976242947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929497005651474521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c803312b93d0a41a70407b0289132d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &2927200656977968934
 Rigidbody2D:
   serializedVersion: 4
@@ -302,8 +319,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.75217354, y: 0.17842251}
-  m_Size: {x: 0.85684514, y: 1.9553682}
+  m_Offset: {x: -0.75217354, y: 0.27638003}
+  m_Size: {x: 0.85684514, y: 2.1512833}
   m_Direction: 0
 --- !u!1 &1929497006689140480
 GameObject:
