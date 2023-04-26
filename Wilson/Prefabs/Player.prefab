@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1929497004774858170}
   - component: {fileID: 1929497004774858169}
   - component: {fileID: 1929497004774858168}
-  - component: {fileID: 1929497004774858171}
   - component: {fileID: 1929497004774858172}
   m_Layer: 0
   m_Name: Farmer idle Sprite_0
@@ -108,18 +107,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1929497004774858171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929497004774858151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69c803312b93d0a41a70407b0289132d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1929497004774858172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,7 +114,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929497004774858151}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
@@ -220,7 +207,7 @@ MonoBehaviour:
   useInput: 0
   testEquipItem: {fileID: 11400000, guid: abb45cc613cc7c64e94aab2a3998b757, type: 2}
   equipObjectOrigin: {fileID: 1929497006689140481}
-  mouseUtilities: {fileID: 1929497004774858171}
+  mouseUtilities: {fileID: 9183228166976242947}
 --- !u!1 &1929497005651474521
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +221,7 @@ GameObject:
   - component: {fileID: 9183228166976242947}
   - component: {fileID: 2927200656977968934}
   - component: {fileID: 8191460618980333322}
+  - component: {fileID: 820909491}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -269,9 +257,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d05e2e4adf76ae4089a371909016ff9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  rig: {fileID: 0}
-  spriteRenderer: {fileID: 0}
+  moveSpeed: 3
+  rig: {fileID: 2927200656977968934}
+  spriteRenderer: {fileID: 1929497004774858169}
   mouseUtilities: {fileID: 9183228166976242947}
 --- !u!114 &9183228166976242947
 MonoBehaviour:
@@ -285,6 +273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c803312b93d0a41a70407b0289132d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 0}
 --- !u!50 &2927200656977968934
 Rigidbody2D:
   serializedVersion: 4
@@ -322,6 +311,56 @@ CapsuleCollider2D:
   m_Offset: {x: -0.75217354, y: 0.27638003}
   m_Size: {x: 0.85684514, y: 2.1512833}
   m_Direction: 0
+--- !u!114 &820909491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929497005651474521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 2e081ecafa4bb024f954e544a1feec74, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2366655262649059861}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnMoveInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8b610ac1-1e70-4ea3-9936-5c30dfcf459d
+    m_ActionName: Main/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9c84564b-c50e-4942-bdc8-b2580310a0e9
+    m_ActionName: Main/Clean[/Mouse/leftButton]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Main
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &1929497006689140480
 GameObject:
   m_ObjectHideFlags: 0
