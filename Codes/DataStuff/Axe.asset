@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: Axe
   Description: cleans a 3 block area but only used one's
-  Icon: {fileID: 21300000, guid: d3be4566825c6fc42b01d5510ef80a50, type: 3}
+  Icon: {fileID: 21300000, guid: 20baed83cacc40d419bd72c91791cc6f, type: 3}
   MaxStackSize: 1
-  EquipPrefab: {fileID: 1997485533109207776, guid: bc538361c78fa1449885085201261fe7, type: 3}
+  EquipPrefab: {fileID: 6886045988593427733, guid: acbb543d4c2167947a69f6dab9f1d5af, type: 3}

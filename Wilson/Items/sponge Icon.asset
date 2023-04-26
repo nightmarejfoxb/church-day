@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: Sponge
   Description: Throws Sponges
-  Icon: {fileID: 21300000, guid: d91e541799cb53d409259ca75fc5b453, type: 3}
+  Icon: {fileID: 21300000, guid: 1be739f66a503b14da43795d1074e0a4, type: 3}
   MaxStackSize: 1
-  EquipPrefab: {fileID: 0}
+  EquipPrefab: {fileID: 5679959503039829403, guid: 29fb1a054a0c6b74fbed7e7ed572356c, type: 3}
   FireRate: 0.5
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 5679959503039829403, guid: 29fb1a054a0c6b74fbed7e7ed572356c, type: 3}
   ProjectileItemData: {fileID: 11400000, guid: 0e11c9f8519555943b73baeefbf5aeba, type: 2}

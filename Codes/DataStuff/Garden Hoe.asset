@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: Garden Hoe
   Description: help put seeds in the dirt
-  Icon: {fileID: 21300000, guid: f74c8b9c1cf62df4db7e0b754effd837, type: 3}
+  Icon: {fileID: 21300000, guid: 248cd361a17aba4488a4a4a488c38150, type: 3}
   MaxStackSize: 1
-  EquipPrefab: {fileID: 3487069804341465813, guid: a93467a4059849841a4f53925db9ac2c, type: 3}
+  EquipPrefab: {fileID: 8330231553748160675, guid: dc719d92804274e49820d1e62e2cc2e3, type: 3}

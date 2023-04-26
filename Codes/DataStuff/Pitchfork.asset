@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: Pitchfork
   Description: 'cleans food mess '
-  Icon: {fileID: 21300000, guid: 1a4bb16efcaca0c4c897001ed09f52ad, type: 3}
+  Icon: {fileID: 21300000, guid: 834933dfc591c0349b19eb52b13fc64b, type: 3}
   MaxStackSize: 1
-  EquipPrefab: {fileID: 5271399181121105717, guid: 6bca5f42032c6ec48901ec82c674b47a, type: 3}
+  EquipPrefab: {fileID: 4148202779992186796, guid: 258bb6cb7d8b4374790a4a405b19cbb3, type: 3}
