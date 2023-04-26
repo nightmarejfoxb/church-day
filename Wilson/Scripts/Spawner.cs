@@ -8,6 +8,10 @@ public class Spawner : MonoBehaviour
     public List<GameObject> spawnPool;
     public GameObject quad;
 
+    public int xRange;
+    public int yRange;
+
+
     void Start()
     {
         spawnObjects();
@@ -15,9 +19,11 @@ public class Spawner : MonoBehaviour
 
     public void spawnObjects()
     {
+        destroyObjects();
         int randomItem = 0;
         GameObject toSpawn;
-        MeshCollider c = quad.GetComponent<MeshCollider>();
+        //MeshCollider c = quad.GetComponent<MeshCollider>();
+        
 
         float screenX, screenY;
         Vector2 pos;
@@ -27,12 +33,12 @@ public class Spawner : MonoBehaviour
             randomItem = Random.Range(0, spawnPool.Count);
             toSpawn = spawnPool[randomItem];
 
-            screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
-            screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);
+            screenX = Random.Range(-xRange, xRange);
+            screenY = Random.Range(-yRange,yRange);
             pos = new Vector2(screenX, screenY);
 
             Instantiate(toSpawn, pos, toSpawn.transform.rotation);
-
+            Debug.Log("Instantiated a " +  toSpawn.name);
         }
     }
     private void destroyObjects()
