@@ -217,11 +217,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1929497005651474522}
+  - component: {fileID: 4216379021453010871}
   - component: {fileID: 2366655262649059861}
   - component: {fileID: 9183228166976242947}
   - component: {fileID: 2927200656977968934}
   - component: {fileID: 8191460618980333322}
   - component: {fileID: 820909491}
+  - component: {fileID: 3774755956072320491}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -245,6 +247,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4216379021453010871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929497005651474521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d32c5cae52b2648b3751c9b0fe1eb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisplayName: 
+  CurHp: 0
+  MaxHp: 0
+  team: 0
+  audioSource: {fileID: 0}
+  hitSFX: {fileID: 0}
+  animator: {fileID: 0}
+  EquipCtrl: {fileID: 0}
 --- !u!114 &2366655262649059861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -361,6 +383,26 @@ MonoBehaviour:
   m_DefaultActionMap: Main
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &3774755956072320491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929497005651474521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d32c5cae52b2648b3751c9b0fe1eb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DisplayName: 
+  CurHp: 0
+  MaxHp: 0
+  team: 0
+  audioSource: {fileID: 0}
+  hitSFX: {fileID: 0}
+  animator: {fileID: 0}
+  EquipCtrl: {fileID: 0}
 --- !u!1 &1929497006689140480
 GameObject:
   m_ObjectHideFlags: 0

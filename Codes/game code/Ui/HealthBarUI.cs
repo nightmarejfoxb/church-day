@@ -10,27 +10,27 @@ public class HealthBarUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI nameText;
     [SerializeField] private Image healthBarFill;
 
-    private void OnEnable()
+    void OnEnable ()
     {
         character.onTakeDamage += UpdateHealthBar;
         character.onHeal += UpdateHealthBar;
     }
-    private void OnDisable()
+    void OnDisable ()
     {
         character.onTakeDamage -= UpdateHealthBar;
         character.onHeal -= UpdateHealthBar;
     }
 
-    private void Start()
+    void Start ()
     {
-        SetNameText(character. DisplayName);
+        SetNameText(character.DisplayName);
     }
-    void SetNameText(string text)
+    void SetNameText (string text)
     {
         nameText.text = text;
     }
 
-    void UpdateHealthBar()
+    void UpdateHealthBar ()
     {
         float healthPercent = (float)character.CurHp / (float)character.MaxHp;
         healthBarFill.fillAmount = healthPercent;
