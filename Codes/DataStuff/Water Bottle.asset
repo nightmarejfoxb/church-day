@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ea7b018b01d5004a8ef343c82b9993d, type: 3}
+  m_Name: Water Bottle
+  m_EditorClassIdentifier: 
+  DisplayName: Water Bottle
+  Description: Heals 20 HP.
+  Icon: {fileID: 21300000, guid: 1cd3404b65ed077448ab5f2c297ce52f, type: 3}
+  MaxStackSize: 5
+  EquipPrefab: {fileID: 5756590017580101609, guid: 047f5784b45f2574ab03ccca1df6c410, type: 3}
+  HealthToGive: 20
