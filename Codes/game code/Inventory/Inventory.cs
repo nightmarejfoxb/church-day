@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    [SerializeField] private itemsready[] starterItems;
+    [SerializeField] private ItemData[] starterItems;
     [SerializeField] private int inventorySize;
     private ItemSlot[] itemSlots;
 
@@ -38,7 +38,7 @@ public class Inventory : MonoBehaviour
     }
 
     // Adds an item to the inventory.
-    public void AddItem(itemsready item)
+    public void AddItem(ItemData item)
     {
         ItemSlot slot = FindAvailableItemSlot(item);
 
@@ -66,7 +66,7 @@ public class Inventory : MonoBehaviour
     }
 
     // Removes the requested item from the inventory.
-    public void RemoveItem(itemsready item)
+    public void RemoveItem(ItemData item)
     {
         for (int i = 0; i < itemSlots.Length; i++)
         {
@@ -99,7 +99,7 @@ public class Inventory : MonoBehaviour
     }
 
     // Returns in item slot that the requested item can fit into.
-    ItemSlot FindAvailableItemSlot(itemsready item)
+    ItemSlot FindAvailableItemSlot(ItemData item)
     {
         for (int i = 0; i < itemSlots.Length; i++)
         {
@@ -129,7 +129,7 @@ public class Inventory : MonoBehaviour
     }
 
     // Do we have the requested item?
-    public bool HasItem(itemsready item)
+    public bool HasItem(ItemData item)
     {
         for (int i = 0; i < itemSlots.Length; i++)
         {

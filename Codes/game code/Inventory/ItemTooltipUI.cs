@@ -9,7 +9,7 @@ public class ItemTooltipUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI itemNameText;
     [SerializeField] private TextMeshProUGUI itemDescriptionText;
 
-    public void SetTooltip(itemsready item)
+    public void SetTooltip(ItemData item)
     {
         tooltipContainer.SetActive(true);
         itemNameText.text = item.DisplayName;

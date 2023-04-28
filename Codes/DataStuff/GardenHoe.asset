@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 900060a953fb90e49b1184036a76e595, type: 3}
-  m_Name: Pitchfork
+  m_Name: GardenHoe
   m_EditorClassIdentifier: 
-  DisplayName: Pitchfork
-  Description: cleans quicky but is short of 2
-  Icon: {fileID: 21300000, guid: 834933dfc591c0349b19eb52b13fc64b, type: 3}
+  DisplayName: GardenHoe
+  Description: helps putting seeds faster
+  Icon: {fileID: 21300000, guid: 248cd361a17aba4488a4a4a488c38150, type: 3}
   MaxStackSize: 1
-  EquipPrefab: {fileID: 4148202779992186796, guid: 258bb6cb7d8b4374790a4a405b19cbb3, type: 3}
-  Damage: 30
+  EquipPrefab: {fileID: 8330231553748160675, guid: dc719d92804274e49820d1e62e2cc2e3, type: 3}
+  Damage: 10
   Range: 2
-  AttackRate: 2
+  AttackRate: 0.7

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ItemSlot 
 {
-    public itemsready Item;
+    public ItemData Item;
     public int Quantiy;
 
     public static int Length { get; internal set; }

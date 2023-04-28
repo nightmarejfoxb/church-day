@@ -4,7 +4,10 @@ using UnityEngine;
 
 public abstract class Equip : MonoBehaviour
 {
-    [SerializeField] protected itemsready item;
+    [SerializeField] protected FoodItemData fooditem;
+    [SerializeField] protected ItemData item;
+    [SerializeField] protected RangedEquipItem RangedItem;
+    [SerializeField] protected MeleeEquipItem MeleeItem;
 
    public virtual void OnUse()
    {
