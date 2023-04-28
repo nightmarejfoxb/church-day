@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Enemy : Character
+public class Enemy : Character
 {
     public enum State
     {
@@ -11,28 +11,29 @@ public abstract class Enemy : Character
         Attack
     }
 
-    protected State curState;
+    private State curState;
 
-    [SerializeField] protected float moveSpeed;
-    [SerializeField] protected float chaseDistance;
+    [SerializeField] private float moveSpeed;
+    [SerializeField] private float chaseDistance;
+    [SerializeField] private ItemData[] dropItems;
 
-    [SerializeField] protected ItemData[] dropItems;
-    [SerializeField] protected GameObject dropItemPrefab;
+    private GameObject dropItemPrefab;
 
     protected GameObject target;
 
-    protected float lastAttackTime;
-    protected float targetDistance;
+    private float lastAttackTime;
+    private float targetDistance;
+    private float attackDistance;
 
     [Header("Components")]
     [SerializeField] protected SpriteRenderer spriteRenderer;
 
-    protected virtual void Start ()
+    void Start ()
     {
         target = FindObjectOfType<Player>().gameObject;
     }
 
-    protected virtual void Update ()
+    void Update ()
     {
         // Calculate the distance from us to the target.
         targetDistance = Vector2.Distance(transform.position, target.transform.position);
@@ -88,22 +89,22 @@ public abstract class Enemy : Character
         }
     }
 
-    protected virtual void AttackTarget()
+    void AttackTarget ()
     {
 
     }
 
-    protected virtual bool CanAttack()
-    {
-        return false;
-    }
-
-    protected virtual bool InAttackRange ()
+    bool CanAttack ()
     {
         return false;
     }
 
-    protected Vector2 GetTargetDirection ()
+    bool InAttackRange ()
+    {
+        return targetDistance <= attackDistance;
+    }
+
+    Vector2 GetTargetDirection ()
     {
         return (target.transform.position - transform.position).normalized;
     }
@@ -114,7 +115,7 @@ public abstract class Enemy : Character
         Destroy(gameObject);
     }
 
-    protected void DropItems ()
+    void DropItems ()
     {
         for(int i = 0; i < dropItems.Length; i++)
         {
