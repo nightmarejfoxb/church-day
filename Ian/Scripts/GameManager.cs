@@ -68,5 +68,6 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(1);
         time--;
         countdown = true;
+
     }
 }
