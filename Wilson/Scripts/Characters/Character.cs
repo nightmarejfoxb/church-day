@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Character : MonoBehaviour, IDamagable
+public abstract class Character : MonoBehaviour, IDamagable
 {
     public enum Team
     {
@@ -24,7 +24,7 @@ public class Character : MonoBehaviour, IDamagable
     public event UnityAction onTakeDamage;
     public event UnityAction onHeal;
 
-    public void TakeDamage(int damageToTake)
+    public virtual void TakeDamage(int damageToTake)
     {
         CurHp -= damageToTake;
 
@@ -46,7 +46,7 @@ public class Character : MonoBehaviour, IDamagable
         return team;
     }
 
-    public void Heal (int healAmount)
+    public virtual void Heal (int healAmount)
     {
         CurHp += healAmount;
 

@@ -9,7 +9,7 @@ public class RangedEnemy : Enemy
     [SerializeField] private RangedWeaponItemData weapon;
     [SerializeField] private float attackRange;
 
-    protected override void AttackTarget()
+    protected override void AttackTarget ()
     {
         Quaternion projRotation = Quaternion.FromToRotation(transform.up, GetTargetDirection());
         weapon.Fire(muzzle.position, projRotation, team);
@@ -20,7 +20,7 @@ public class RangedEnemy : Enemy
         return Time.time - lastAttackTime > weapon.FireRate;
     }
 
-    protected override bool InAttackRange()
+    protected override bool InAttackRange ()
     {
         return targetDistance <= attackRange;
     }

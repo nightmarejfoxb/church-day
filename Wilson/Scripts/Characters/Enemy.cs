@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : Character
+public abstract class Enemy : Character
 {
     public enum State
     {
@@ -11,29 +11,29 @@ public class Enemy : Character
         Attack
     }
 
-    private State curState;
+    protected State curState;
 
-    [SerializeField] private float moveSpeed;
-    [SerializeField] private float chaseDistance;
+    [SerializeField] protected float moveSpeed;
+    [SerializeField] protected float chaseDistance;
     [SerializeField] private ItemData[] dropItems;
 
     private GameObject dropItemPrefab;
 
     protected GameObject target;
 
-    private float lastAttackTime;
-    private float targetDistance;
-    private float attackDistance;
+    protected float lastAttackTime;
+    protected float targetDistance;
+    protected float attackDistance;
 
     [Header("Components")]
     [SerializeField] protected SpriteRenderer spriteRenderer;
 
-    void Start ()
+    protected virtual void Start ()
     {
         target = FindObjectOfType<Player>().gameObject;
     }
 
-    void Update ()
+    protected virtual void Update ()
     {
         // Calculate the distance from us to the target.
         targetDistance = Vector2.Distance(transform.position, target.transform.position);
@@ -51,7 +51,7 @@ public class Enemy : Character
     }
 
     // Changes our current state.
-    void ChangeState (State newState)
+    protected virtual void ChangeState (State newState)
     {
         curState = newState;
     }
@@ -89,22 +89,22 @@ public class Enemy : Character
         }
     }
 
-    void AttackTarget ()
+    protected virtual void AttackTarget ()
     {
 
     }
 
-    bool CanAttack ()
+    protected virtual bool CanAttack ()
     {
         return false;
     }
 
-    bool InAttackRange ()
+    protected virtual bool InAttackRange ()
     {
-        return targetDistance <= attackDistance;
+        return false;
     }
 
-    Vector2 GetTargetDirection ()
+    protected virtual Vector2 GetTargetDirection ()
     {
         return (target.transform.position - transform.position).normalized;
     }
@@ -115,7 +115,7 @@ public class Enemy : Character
         Destroy(gameObject);
     }
 
-    void DropItems ()
+    protected void DropItems ()
     {
         for(int i = 0; i < dropItems.Length; i++)
         {
