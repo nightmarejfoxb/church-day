@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: Water Bottle
   Description: Heals 20 HP.
-  Icon: {fileID: 21300000, guid: b725b57478633514a8b24056020e0260, type: 3}
+  Icon: {fileID: 21300000, guid: fb30d2d95f757354abf11ae3f043e149, type: 3}
   MaxStackSize: 5
   EquipPrefab: {fileID: 0}
   HealthToGive: 20
