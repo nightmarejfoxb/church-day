@@ -8,21 +8,20 @@ public class CleanUp : MonoBehaviour
     public List<Sprite> rotStage;
     public int rotting = 0;
     public SpriteRenderer sR;
+    public bool rotAway;
     private void Start()
     {
         sR = GetComponent<SpriteRenderer>();
+        rotAway = true;
     }
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            if (rotting < rotStage.Count - 1)
+            if (rotting < rotStage.Count - 1 && rotAway == true)
             {
-                rotting++;
+                StartCoroutine("Rotting");
+                rotAway = false;
             }
-            sR.sprite = rotStage[rotting];
-        }
     }
 
 
@@ -32,5 +31,16 @@ public class CleanUp : MonoBehaviour
         {
             Destroy(Mess);
         }
+    }
+
+    IEnumerator Rotting()
+    {
+        yield return new WaitForSeconds(10);
+        
+        rotting++;
+        
+        sR.sprite = rotStage[rotting];
+
+        rotAway = true;
     }
 }

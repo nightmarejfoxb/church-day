@@ -37,13 +37,6 @@ public class GameManager : MonoBehaviour
             restart.enabled = true;
         }
 
-        if(victory.enabled == true || failure.enabled == true)
-        {
-            if(Input.GetKeyDown(KeyCode.X))
-            {
-
-            }
-        }
         if (time > 0 && countdown == true && victory.enabled == false)
         {
             StartCoroutine("Wait");
