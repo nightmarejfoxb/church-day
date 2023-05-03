@@ -12,9 +12,9 @@ public class Playercr : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Rigidbody2D rig;
     [SerializeField] private SpriteRenderer sr;
-    
-    
 
+
+    public GameManager gM;
     private Vector2 moveInput;
 
     public void Start()
@@ -24,14 +24,23 @@ public class Playercr : MonoBehaviour
 
     private void Update()
     {
-       
+       if (gM.restart.enabled == false)
+        {
+            moveSpeed = 5;
+        }
+        else
+        {
+            moveSpeed = 0;
+        }
     }
 
     private void FixedUpdate()
     {
         Vector2 velocity = moveInput * moveSpeed;
-        rig.velocity = velocity;
-        animator.SetFloat("move", Mathf.Abs(velocity.magnitude));
+            rig.velocity = velocity;
+            animator.SetFloat("move", Mathf.Abs(velocity.magnitude));
+        
+
     }
 
     public void OnMoveInput (InputAction.CallbackContext context)
