@@ -159,6 +159,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5767623110765982615, guid: ea3cd9e517bdd5b4db8debf3c6d0af4d, type: 3}
   m_PrefabInstance: {fileID: 862512575}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &416641733 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1929497004934690799, guid: 30561ed7f7e4f6c46a8bc49dc3a45bf1, type: 3}
+  m_PrefabInstance: {fileID: 1929497006471327208}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e832952d1e64e94bbdc4004579ed21a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &433001075 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1929497005651474521, guid: 30561ed7f7e4f6c46a8bc49dc3a45bf1, type: 3}
@@ -995,6 +1006,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 820909491, guid: 30561ed7f7e4f6c46a8bc49dc3a45bf1, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 820909491, guid: 30561ed7f7e4f6c46a8bc49dc3a45bf1, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 820909491, guid: 30561ed7f7e4f6c46a8bc49dc3a45bf1, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 416641733}
+    - target: {fileID: 820909491, guid: 30561ed7f7e4f6c46a8bc49dc3a45bf1, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 820909491, guid: 30561ed7f7e4f6c46a8bc49dc3a45bf1, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnUseInput
+      objectReference: {fileID: 0}
+    - target: {fileID: 820909491, guid: 30561ed7f7e4f6c46a8bc49dc3a45bf1, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: EquipController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 820909491, guid: 30561ed7f7e4f6c46a8bc49dc3a45bf1, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1929497004774858169, guid: 30561ed7f7e4f6c46a8bc49dc3a45bf1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

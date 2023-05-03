@@ -10,7 +10,7 @@ public class MeleeEquipItem : EquipItem
 
     [SerializeField] private AudioClip swingSFX;
 
-    public override void OnUse()
+    public override void OnUse ()
     {
         MeleeWeaponItemData i = item as MeleeWeaponItemData;
 

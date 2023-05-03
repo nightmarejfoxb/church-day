@@ -49,7 +49,7 @@ MonoBehaviour:
   item: {fileID: 11400000, guid: abb45cc613cc7c64e94aab2a3998b757, type: 2}
   hitLayerMask:
     serializedVersion: 2
-    m_Bits: 192
+    m_Bits: 200
   anim: {fileID: 9079622509508754390}
   swingSFX: {fileID: 8300000, guid: bc0c56006abda854c9bd01be1f317708, type: 3}
 --- !u!95 &9079622509508754390
