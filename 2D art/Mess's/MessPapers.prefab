@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 8665361696425322565}
   - component: {fileID: 4386310457846398435}
   - component: {fileID: 6796558396964853077}
-  - component: {fileID: 8403939784518094119}
+  - component: {fileID: 7991949566188206190}
   m_Layer: 0
   m_Name: MessPapers
-  m_TagString: Untagged
+  m_TagString: Mess
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.05, y: 1.05}
   m_EdgeRadius: 0
---- !u!114 &8403939784518094119
+--- !u!114 &7991949566188206190
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,3 +125,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mess: {fileID: 2466693937997948425}
+  rotStage:
+  - {fileID: 21300000, guid: 30fc850723bd54341842a80c17b59520, type: 3}
+  - {fileID: 21300000, guid: ffe6b2d2433824c4abe516d73cb7d80c, type: 3}
+  - {fileID: 21300000, guid: c105d4f3d1e9f934da4d4b7d16f9d669, type: 3}
+  - {fileID: 21300000, guid: 65b7b6127e45ea442816915391fe49b4, type: 3}
+  rotting: 4
+  sR: {fileID: 4386310457846398435}
+  rotAway: 0

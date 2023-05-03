@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 5547611739584647310}
   m_Layer: 0
   m_Name: Broom
-  m_TagString: Broom
+  m_TagString: Roomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
