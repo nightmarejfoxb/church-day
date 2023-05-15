@@ -17,12 +17,12 @@ public class Roomba : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      /*  if (gM.restart.enabled == false)
+        if (gM.restart.enabled == false)
         {
             vInput = Input.GetAxis("Vertical");
             hInput = Input.GetAxis("Horizontal");
             transform.Translate(Vector2.up * moveSpeed * Time.deltaTime * vInput);
             transform.Translate(Vector2.right * moveSpeed * Time.deltaTime * hInput);
-        }*/
+        }
     }
 }

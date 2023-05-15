@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
         }
         if(restart.enabled == true && Input.GetKeyDown(KeyCode.X))
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("InSide");
         }
     }
     IEnumerator Wait()
